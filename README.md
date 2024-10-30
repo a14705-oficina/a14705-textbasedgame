@@ -2,13 +2,11 @@
 
 FLORESTA OBSCURA 
 
- 
-
-Este jogo é baseado numa aventura, estarás perdido numa floresta, que ao longo do jogo irá ter alguns desafios e escolherem o caminho certo, com o objetivo principal de encontrar os amigos e ir embora. Este jogo é feito para adolescentes ou adultos. 
+ <p>Este jogo é baseado numa aventura, estarás perdido numa floresta, que ao longo do jogo irá ter alguns desafios e escolherem o caminho certo, com o objetivo principal de encontrar os amigos e ir embora. Este jogo é feito para adolescentes ou adultos.</p>
 
  
 
-<h6>FUNCIONALIDADES DO JOGO <h\6>
+FUNCIONALIDADES DO JOGO
 
 Como este jogo é textbasedgame, o jogador apenas consegue interagir com o jogo usando comandos. Também vai ter progressão ao longo do jogo, ou seja, a cada escolha que o jogador faça, irá haver conquistas e perder algumas coisas. Acrescentando que é um jogo single-player (só dá para um jogador). 
 

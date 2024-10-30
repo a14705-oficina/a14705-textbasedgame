@@ -3,6 +3,7 @@ vida = 100
 mochila = []
 luta = []
 continuar = True
+fino = True
 
 def adicionar_item(item, mochila):
   mochila.append(item)
@@ -24,7 +25,7 @@ elif introducao == "N":
    print("\nOh nãoo. Volta outro dia :) ")
 else:
    print("\nInsira uma opção válida!")
-
+#-----------------------------------------------------------------------------------------------------
 #Jogo | FASE 1
 if introducao == "S":
     adicionar_item("Pão", mochila)
@@ -77,13 +78,12 @@ elif opcao == "D":
           print("\nBoa! Conseguiste passar à próxima fase!")
       elif ponte == "O":
         fino = input("\nEncontras outro caminho, porém é no rio e vais ter que saltar de pedra em pedra com peixes assassinos. (Se fosses fino, usavas a comida que tens na tua mochila): ")
-        fino = True
         while fino:
-              resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
-              if resposta == "N":
-                break
-              elif resposta == "S":
-                fino = False
+          resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
+          if resposta == "S":
+              fino = False
+          elif resposta == "N":
+            break
     elif decisao == "2":
       input("\nSenhor: Tens a certeza pequenote?")
       input(f"\n{nome}: Sim, tenho.")
@@ -92,10 +92,11 @@ elif opcao == "D":
       hp = hp - 5
       input(f"\nO homem pega numa faca e faz-te um corte na perna, agora perdeste saúde. Estás com {hp} mas conseguiste escapar dele!")
 elif opcao == "M":
-  print(mochila)
+    print(mochila)
+  
 #-----------------------------------------------------------------------------------------------------
 #Jogo | FASE 3
-  seguinte = input("\nDigite SEGUINTE para continuar o jogo! ")
+seguinte = input("\nDigite SEGUINTE para continuar o jogo! ")
 input("\nBoa! Estás quase a chegar lá. Faltam-te apenas alguns obstáculos.")
 mescolha = input("\nEncontras-te mais 2 portas. Escolhe (Esquerda (E) | Direita (D)) | Ver mochila (M)")
 if mescolha == "E":
@@ -120,6 +121,8 @@ if mescolha == "E":
         resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
         if resposta == "S":
             continuar = False
+        elif resposta == "N":
+          break
 elif mescolha == "D":
   input("\nQuando abriste a porta, viste um lago gigante cheio de corcodilos e hipopótamos esfomeados.")
   croc = input("\nDesejas dar comida ou tentar fugir? (Comida (C) | Fugir (F))")
@@ -127,11 +130,11 @@ elif mescolha == "D":
     input("\nOh não. Foste um alimento fácil para os predadores.")
     continuar = True
     while continuar:
-        resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
-        if resposta == "S":
-            continuar = False
-        elif resposta == "N":
-          break
+      resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
+      if resposta == "S":
+          continuar = False
+      elif resposta == "N":
+        break
   elif croc == "C":
     remover_item ("Maça", mochila)
     seguinte3 =input("\nFoste inteligente! Utilizaste a maça para atrair os predadores para longe de ti, agora consegues escapar sem problemas. Digite Seguinte para continuar. ")
@@ -141,8 +144,11 @@ elif mescolha == "D":
 #Jogo | FASE 4
 
 seguinte3 = "Seguinte"
-input("Boa! Conseguiste passar para uma nova fase. Tamos perto do final!")
-
-
-
-input("\nBoa! Usaste o pão e conseguiste atrair os peixes para um canto e conseguiste passar para a próxima fase!")
+input("Boa! Conseguiste chegar aos teus amigos! Agora pegai no mapa para voltarem para casa.")
+input(f"Fim do jogo! Obrigado por jogares o jogo {nome}!")
+while continuar:
+    resposta = input("\nQueres jogar de novo? (Sim (S) | Não (N)): ")
+    if resposta == "S":
+        continuar = False
+    elif resposta == "N":
+      break

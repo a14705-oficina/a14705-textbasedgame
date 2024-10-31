@@ -6,7 +6,7 @@
 
  
 
-<h2>FUNCIONALIDADES DO JOGO</h2>
+**FUNCIONALIDADES DO JOGO**
 
 Como este jogo é textbasedgame, o jogador apenas consegue interagir com o jogo usando comandos. Também vai ter progressão ao longo do jogo, ou seja, a cada escolha que o jogador faça, irá haver conquistas e perder algumas coisas. Acrescentando que é um jogo single-player (só dá para um jogador). 
 

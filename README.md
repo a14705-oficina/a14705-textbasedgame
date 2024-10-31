@@ -10,7 +10,7 @@
 
 Como este jogo é textbasedgame, o jogador apenas consegue interagir com o jogo usando comandos. Também vai ter progressão ao longo do jogo, ou seja, a cada escolha que o jogador faça, irá haver conquistas e perder algumas coisas. Acrescentando que é um jogo single-player (só dá para um jogador). 
 
-MECÂNICAS DO JOGO
+**MECÂNICAS DO JOGO**
 
 Como todos os jogos, este jogo tem um movimento diferente (Só irá conseguir andar pela esquerda ou direita). O combate neste jogo também pode-se ver em algumas fases, este inclui pegar armas e tem sistema de ataque e defesa. 
 
@@ -24,7 +24,7 @@ Dependendo das escolhas feitas, o jogador pode seguir diferentes caminhos na nar
 
 Também tem momentos críticos, onde o jogador deve tomar uma decisão que afetará apenas a narrativa imediata pois o futuro do jogo irá ser o mesmo. Este jogo contém também a possibilidade de jogar outra vez. Assim o jogador pode experimentar diferentes decisões e diferentes desafios. Esta opção só aparece quando o jogador morre ou acaba o jogo. 
 
-TÉCNICAS DE  IMPLEMENTAÇÃO
+**TÉCNICAS DE  IMPLEMENTAÇÃO**
 
 *Estrutura do Código*  
 
@@ -58,10 +58,22 @@ Para guardar o progresso do jogador, o jogo tem listas e variáveis (por exemplo
 
 O input do jogo é utilizado em várias coisas. É utilizado nas escolhas, na narrativa e nos diálogos. Quando input é utilizado nas escolhas, é apenas usado uma vogal ou uma palavra que dê seguimento ao jogo. Na narrativa e nos diálogos é utilizado o input para dar tempo ao jogador ler (Quando aparece o diálogo ou narrativa, a cada ENTER que o jogador dê, aparece outra nova frase. Se usasse o print, ficava tudo junto e aparecia tudo seguido, com o input é mais limpo e bonito.) 
 
-DESAFIOS E SOLUÇÕES
+**COMANDOS NECESSÁRIOS**
+
+E - Escolher esquerda
+D - Escolher direita
+M - Ver mochila
+Fugir - Fugir de alguma coisa
+Atacar - Atacar alguma coisa
+ENTER - (Clicar na tecla ENTER)Só se usa quando acontece diálogo ou narrativa
+Usar comida - Usa-se apenas numa fase
+
+
+
+**DESAFIOS E SOLUÇÕES**
 
 O if na fase 3 estava a dar erro mas consegui resolver (o elif estava na linha errada e então dava erro) e o while para acabar o jogo (não me estava a dar para voltar ao jogo mas consegui resolver). 
 
-CONCLUSÃO
+**CONCLUSÃO*
 
 Para o 1º jogo feito na vida, acho que o trabalho tá bom, não 100% perfeito, mas acho que dá para perceber que tentei e que esforcei-me. No futuro quero melhorar a minha programação e não usar muito o if e usar mais while ou outro tipo de loops e tar mais concentrado no código. Usar o que aprendi com o professor e com o w3bschool mais tarde quando tiver um emprego. <\p>

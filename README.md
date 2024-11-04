@@ -14,7 +14,7 @@ Como este jogo é textbasedgame, o jogador apenas consegue interagir com o jogo 
 
 Como todos os jogos, este jogo tem um movimento diferente (Só irá conseguir andar pela esquerda ou direita). O combate neste jogo também pode-se ver em algumas fases, este inclui pegar armas e tem sistema de ataque e defesa. 
 
-ESTRUTURA NARRATIVA E LÓGICA DAS ESCOLHAS
+**ESTRUTURA NARRATIVA E LÓGICA DAS ESCOLHAS**
 
 Neste jogo, a narrativa é muito utilizada, pois a história segue um caminho fixo, onde o jogador avança para uma cena sem desvios (E neste jogo, irá ter diálogos entre algumas personagens, logo a narrativa vai ter que ser usada). 
 

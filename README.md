@@ -48,7 +48,7 @@ O jogo é constituído por ifs e whiles. (O if é o mais utilizado durante o jog
 
 O if é utilizado para escolhas, por exemplo, tem 2 caminhos à frente do jogador, se escolher o caminho x, acontece algo, senão escolhe o y, e irá acontecer outra coisa diferente. 
 
-O while é utilizado para quando o jogador morre ou acaba o jogo, o while é utilizado para voltar a acontecer x coisa. 
+O while é utilizado para quando o jogador morre ou acaba o jogo, o while é utilizado para voltar ao início do jogo.
 
 *Gestão de dados* 
 

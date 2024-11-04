@@ -63,6 +63,7 @@ O input do jogo é utilizado em várias coisas. É utilizado nas escolhas, na na
 	E - Escolher esquerda
 	D - Escolher direita
 	M - Ver mochila
+ 	Seguinte - Ir para a próxima fase
 	Fugir - Fugir de alguma coisa
 	Atacar - Atacar alguma coisa
 	ENTER - (Clicar na tecla ENTER)Só se usa quando acontece diálogo ou narrativa

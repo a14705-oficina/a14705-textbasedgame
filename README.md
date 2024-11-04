@@ -75,6 +75,6 @@ O input do jogo é utilizado em várias coisas. É utilizado nas escolhas, na na
 
 O if na fase 3 estava a dar erro mas consegui resolver (o elif estava na linha errada e então dava erro) e o while para acabar o jogo (não me estava a dar para voltar ao jogo mas consegui resolver). 
 
-**CONCLUSÃO*
+**CONCLUSÃO**
 
-Para o 1º jogo feito na vida, acho que o trabalho tá bom, não 100% perfeito, mas acho que dá para perceber que tentei e que esforcei-me. No futuro quero melhorar a minha programação e não usar muito o if e usar mais while ou outro tipo de loops e tar mais concentrado no código. Usar o que aprendi com o professor e com o w3bschool mais tarde quando tiver um emprego. <\p>
+Para o 1º jogo feito na vida, acho que o trabalho tá bom, não 100% perfeito, mas acho que dá para perceber que tentei e que esforcei-me. No futuro quero melhorar a minha programação e não usar muito o if e usar mais while ou outro tipo de loops e tar mais concentrado no código. Usar o que aprendi com o professor e com o w3bschool mais tarde quando tiver um emprego. 

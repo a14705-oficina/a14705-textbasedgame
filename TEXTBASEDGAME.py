@@ -1,5 +1,5 @@
 #Comandos necessários
-vida = 100
+vida = 50
 mochila = []
 luta = []
 continuar = True
